@@ -1,4 +1,4 @@
-namespace DotNetCoreSqlDb.Models
+namespace DotNetCoreMySqlDb.Models
 {
     public class ErrorViewModel
     {

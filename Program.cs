@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using DotNetCoreSqlDb.Data;
+using DotNetCoreMySqlDb.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add database context and cache

@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using DotNetCoreSqlDb.Data;
-using DotNetCoreSqlDb.Models;
+using DotNetCoreMySqlDb.Data;
+using DotNetCoreMySqlDb.Models;
 using Microsoft.Extensions.Caching.Distributed;
 using Newtonsoft.Json;
 using System.Text;
 
-namespace DotNetCoreSqlDb.Controllers
+namespace DotNetCoreMySqlDb.Controllers
 {
     [ActionTimerFilter]
     public class TodosController : Controller

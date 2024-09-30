@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Filters;
 using System.Diagnostics;
 
-namespace DotNetCoreSqlDb
+namespace DotNetCoreMySqlDb
 {
     public class ActionTimerFilterAttribute : ActionFilterAttribute
     {

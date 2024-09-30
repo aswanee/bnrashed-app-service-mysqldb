@@ -1,8 +1,8 @@
-using DotNetCoreSqlDb.Models;
+using DotNetCoreMySqlDb.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace DotNetCoreSqlDb.Controllers
+namespace DotNetCoreMySqlDb.Controllers
 {
     public class HomeController : Controller
     {
