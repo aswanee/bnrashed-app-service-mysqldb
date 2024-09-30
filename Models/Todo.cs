@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace DotNetCoreSqlDb.Models
+namespace DotNetCoreMySqlDb.Models
 {
     public class Todo
     {

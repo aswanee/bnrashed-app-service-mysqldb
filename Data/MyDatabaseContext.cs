@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using DotNetCoreSqlDb.Models;
+using DotNetCoreMySqlDb.Models;
 
-namespace DotNetCoreSqlDb.Data
+namespace DotNetCoreMySqlDb.Data
 {
     public class MyDatabaseContext : DbContext
     {
@@ -14,6 +14,6 @@ namespace DotNetCoreSqlDb.Data
         {
         }
 
-        public DbSet<DotNetCoreSqlDb.Models.Todo> Todo { get; set; } = default!;
+        public DbSet<DotNetCoreMySqlDb.Models.Todo> Todo { get; set; } = default!;
     }
 }
